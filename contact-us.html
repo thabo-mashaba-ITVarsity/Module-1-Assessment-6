@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <!--Links the CSS and HTML pages-->
+        <link rel="stylesheet" href="style.css">
+        
+       
+    </head>
+    <body>
+         <!--Creates the navigation menu-->
+         <div id="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact-us.html">Contact</a>
+        </div>
+        
+         <!--Creates Heading-->
+        <h1>Hello and Welcome, Please feel free to give us your feedBack</h1>
+        
+        <!--Below form creates the radio buttons and text boxes -->
+        <form>
+            <label for="name"> Name: </label><input type="text" id="name"/>
+            <br/><br/>
+            <label for="surName"> Surname: </label><input type="text" id="surName"/>
+            <br/><br/>
+            <label for="email"> Email: </label><input type="text" id="email"/>
+            <br/><br/>
+            <label for="message"> Message: </label><input type="text" id="message"/>
+            
+            <!--creates paragraph-->
+            <div id="form"> 
+                <p>Should you wish to Contact us directly please send an email on thabo.mashaba@team.itvarsity.org</p>
+            </div>
+            <br/><br/>
+            
+            <!--creates paragraph-->
+            <div id = "form">
+                <p>Please select your Favourite product below.</p>
+            </div>
+            
+            <!--Below lines of code creates the radio buttons-->
+            <input type="radio" id="monitor" name="product"/>
+            <label for="monitor">Monitor </label>
+            <br/> <br/>
+            
+            <input type="radio" id="dell" name="product"/>
+            <label for="dell">Dell Laptop </label>
+            <br/> <br/>
+            
+            <input type="radio" id="iphone" name="product"/>
+            <label for="iphone">Iphone </label>
+            <br/> <br/>
+            
+            <input type="radio" id="chair" name="product"/>
+            <label for="chair">Chair</label>
+            <br/> <br/>
+            
+            <input type="radio" id="headphones" name="product"/>
+            <label for="headphones">Headphones</label>
+            <br/> <br/>
+          
+            
+            <!-- Below lines creates a button-->
+            <input type="submit" value="Send"/>
+            <input type="reset" value="Clear"/>
+           
+        </form>
+    </body>
+</html>
